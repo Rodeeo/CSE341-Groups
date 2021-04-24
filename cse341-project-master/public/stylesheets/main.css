@@ -51,6 +51,17 @@ h1 {
   -webkit-text-stroke-color: black;
   
 }
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    color: darkblue
+  
+}
+pre {
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    color: darkblue
+  }
 
 a  {
   font-family: 'Montserrat', sans-serif;
@@ -58,7 +69,3 @@ a  {
   color: darkblue
 }
 
-body { 
-  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); 
-  color: White;
-}
