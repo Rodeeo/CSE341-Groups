@@ -137,7 +137,7 @@ router.get("/stretch-2", (req, res, next) => {
     res.write('<button type="submit">Submit</button>');
     res.write('</form>');
     // End tags
-    res.write('<script src="/js/main.js"></script>');
+    // res.write('<script src="/js/main.js"></script>');
     res.write('</body>');
     res.write('</html>');
     return res.end(); // Remember to end the response!
@@ -176,7 +176,7 @@ router.get("/stretch-3", (req, res, next) => {
     res.write('<input type="hidden" name="action" value="add2"></input>');
     res.write('</form>');
     // End tags
-    res.write('<script src="js/main.js"></script> ');
+    // res.write('<script src="js/main.js"></script> ');
     res.write('</body>');
     res.write('</html>');
     return res.end(); // Remember to end the response!
